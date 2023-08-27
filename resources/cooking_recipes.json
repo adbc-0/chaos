@@ -1,131 +1,131 @@
 [
     {
-      "id": 1,
-      "title": "Chili sin carne",
-      "description": "Sos sojowy?? Kolendra swieza?? Awokado",
-      "url": "https://kuchnialidla.pl/chili-sin-carne-con-tofu https://kuchnialidla.pl/chilli-sin-carne",
-      "ingredients": [
-        {
-            "id": 1,
-            "name": "Cebula czerwona",
-            "amount": "2",
-            "amount_type": "count"
-        },
-        {
-            "id": 2,
-            "name": "Czosnek",
-            "amount": "4",
-            "amount_type": "count"
-        },
-        {
-            "id": 3,
-            "name": "Olej",
-            "amount": "2",
-            "amount_type": "spoons"
-        },
-        {
-            "id": 4,
-            "name": "Tofu wędzone",
-            "amount": "180",
-            "amount_type": "grams"
-        },
-        {
-            "id": 5,
-            "name": "Ocet winny",
-            "amount": "2",
-            "amount_type": "spoons"
-        },
-        {
-            "id": 6,
-            "name": "Papryka",
-            "amount": "3",
-            "amount_type": "count"
-        },
-        {
-            "id": 7,
-            "name": "Ryż",
-            "amount": "1",
-            "amount_type": "count"
-        },
-        {
-            "id": 8,
-            "name": "Papryka wędzona",
-            "amount": "1",
-            "amount_type": "count"
-        },
-        {
-            "id": 9,
-            "name": "Papryka słodka",
-            "amount": "1",
-            "amount_type": "count"
-        },
-        {
-            "id": 10,
-            "name": "Kumin",
-            "amount": "1",
-            "amount_type": "count"
-        },
-        {
-            "id": 11,
-            "name": "Pomidory krojone z puszki",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 12,
-            "name": "Fasola",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 13,
-            "name": "Kukurydza",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 14,
-            "name": "Koncentrat pomidorowy",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 15,
-            "name": "Liść laurowy",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 16,
-            "name": "Oregano",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 17,
-            "name": "Sól",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 18,
-            "name": "Pieprz",
-            "amount": "400",
-            "amount_type": "grams"
-        },
-        {
-            "id": 19,
-            "name": "Papryka ostra",
-            "amount": "2",
-            "amount_type": "spoons"
-        },
-        {
-            "id": 20,
-            "name": "Chili",
-            "amount": "1",
-            "amount_type": "spoons"
-        }
-      ]
+        "id": 1,
+        "title": "Chili sin carne",
+        "description": "Sos sojowy?? Kolendra swieza?? Awokado",
+        "url": "https://kuchnialidla.pl/chili-sin-carne-con-tofu https://kuchnialidla.pl/chilli-sin-carne",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Cebula czerwona",
+                "amount": "2",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Czosnek",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Olej",
+                "amount": "2",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 4,
+                "name": "Tofu wędzone",
+                "amount": "180",
+                "amount_type": "grams"
+            },
+            {
+                "id": 5,
+                "name": "Ocet winny",
+                "amount": "2",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 6,
+                "name": "Papryka",
+                "amount": "3",
+                "amount_type": "count"
+            },
+            {
+                "id": 7,
+                "name": "Ryż",
+                "amount": "1",
+                "amount_type": "count"
+            },
+            {
+                "id": 8,
+                "name": "Papryka wędzona",
+                "amount": "1",
+                "amount_type": "count"
+            },
+            {
+                "id": 9,
+                "name": "Papryka słodka",
+                "amount": "1",
+                "amount_type": "count"
+            },
+            {
+                "id": 10,
+                "name": "Kumin",
+                "amount": "1",
+                "amount_type": "count"
+            },
+            {
+                "id": 11,
+                "name": "Pomidory krojone z puszki",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 12,
+                "name": "Fasola",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 13,
+                "name": "Kukurydza",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 14,
+                "name": "Koncentrat pomidorowy",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 15,
+                "name": "Liść laurowy",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 16,
+                "name": "Oregano",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 17,
+                "name": "Sól",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 18,
+                "name": "Pieprz",
+                "amount": "400",
+                "amount_type": "grams"
+            },
+            {
+                "id": 19,
+                "name": "Papryka ostra",
+                "amount": "2",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 20,
+                "name": "Chili",
+                "amount": "1",
+                "amount_type": "spoons"
+            }
+        ]
     },
     {
         "id": 2,
@@ -331,7 +331,14 @@
     {
         "id": 8,
         "title": "",
-        "ingredients": [],
+        "ingredients": [
+            {
+                "id": 19,
+                "name": "Buona mascarpone",
+                "amount": "200",
+                "amount_type": "grams"
+            }
+        ],
         "description": ""
     },
     {
