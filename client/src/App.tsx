@@ -1,61 +1,59 @@
-import { createSignal, type Component, onMount, onCleanup } from "solid-js";
-import { Router, Routes, Route } from "@solidjs/router";
+import {
+    RouterProvider,
+    Link,
+    Outlet,
+    createBrowserRouter,
+    createRoutesFromElements,
+    Route,
+} from "react-router-dom";
 
-import { Nav } from "./components/Nav/Nav";
-import { CalendarPage } from "./pages/calendar/CalendarPage";
-import { NotesPage } from "./pages/notes/NotesPage";
-import { RecipesPage } from "./pages/recipes/RecipesPage";
-import { ShoppingListPage } from "./pages/shopping_list/ShoppingListPage";
-import { TodoListPage } from "./pages/todo_list/TodoListPage";
-import { HomePage } from "./pages/home/HomePage";
-import { Sidebar } from "./components/Sidebar/Sidebar";
+import { Home } from "./views/Home";
+import { UrlPath } from "./global/constants";
+import { Sidebar } from "./components/Sidebar";
 
-// Add lazy loading
-const WrappedApp: Component = () => {
-    return (
-        <Router>
-            <App />
-        </Router>
-    );
-};
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route
+                path={UrlPath.RECIPES}
+                lazy={() => import("./views/Recipes")}
+            />
+            <Route
+                path={UrlPath.SHOPPING}
+                lazy={() => import("./views/Shopping")}
+            />
+            <Route
+                path={UrlPath.SETTINGS}
+                lazy={() => import("./views/Settings")}
+            />
+            <Route path="*" element={<NoMatch />} />
+        </Route>,
+    ),
+);
 
-function isMobile(width: number) {
-    return width < 768;
+function App() {
+    return <RouterProvider router={router} />;
 }
 
-// Detect size
-// https://stackoverflow.com/questions/74987753/how-can-i-react-to-changes-in-the-window-size-in-solidjs
-const App: Component = () => {
-    const [width, setWidth] = createSignal(window.innerWidth);
-    const mobileLayout = () => isMobile(width());
-
-    const handler = () => {
-        setWidth(window.innerWidth);
-    };
-
-    onMount(() => {
-        window.addEventListener("resize", handler);
-    });
-
-    onCleanup(() => {
-        window.removeEventListener("resize", handler);
-    });
-
+function Layout() {
     return (
-        <>
-            {mobileLayout() ? <Nav /> : <Sidebar />}
-            <main>
-                <Routes>
-                    <Route path="/" component={HomePage} />
-                    <Route path="/calendar" component={CalendarPage} />
-                    <Route path="/notes" component={NotesPage} />
-                    <Route path="/recipes" component={RecipesPage} />
-                    <Route path="/shopping-list" component={ShoppingListPage} />
-                    <Route path="/todo-list" component={TodoListPage} />
-                </Routes>
-            </main>
-        </>
+        <div className="flex">
+            <Sidebar />
+            <Outlet />
+        </div>
     );
-};
+}
 
-export default WrappedApp;
+function NoMatch() {
+    return (
+        <div>
+            <h2>Nothing to see here!</h2>
+            <p>
+                <Link to="/">Go to the home page</Link>
+            </p>
+        </div>
+    );
+}
+
+export default App;

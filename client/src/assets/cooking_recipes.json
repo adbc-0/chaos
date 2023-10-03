@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "Chili sin carne",
-        "description": "Sos sojowy?? Kolendra swieza?? Awokado",
-        "url": "https://kuchnialidla.pl/chili-sin-carne-con-tofu https://kuchnialidla.pl/chilli-sin-carne",
+        "description": "Dodatki -> Sos sojowy, Kolendra swieza, Awokado",
+        "url": "https://kuchnialidla.pl/chili-sin-carne-con-tofu",
         "ingredients": [
             {
                 "id": 1,
@@ -217,37 +217,37 @@
                 "amount_type": "grams"
             },
             {
-                "id": 19,
+                "id": 20,
                 "name": "Chili",
                 "amount": "400",
                 "amount_type": "grams"
             },
             {
-                "id": 19,
+                "id": 21,
                 "name": "Skyr/Jogurt naturalny",
                 "amount": "400",
                 "amount_type": "grams"
             },
             {
-                "id": 19,
+                "id": 22,
                 "name": "Majonez",
                 "amount": "400",
                 "amount_type": "grams"
             },
             {
-                "id": 19,
+                "id": 23,
                 "name": "Oliwki",
                 "amount": "400",
                 "amount_type": "grams"
             },
             {
-                "id": 19,
+                "id": 24,
                 "name": "Kapusta pekińska/Sałata",
                 "amount": "400",
                 "amount_type": "grams"
             },
             {
-                "id": 19,
+                "id": 25,
                 "name": "Tortille",
                 "amount": "400",
                 "amount_type": "grams"
@@ -256,84 +256,52 @@
     },
     {
         "id": 3,
-        "title": "Pizza",
-        "ingredients": [],
-        "description": ""
-    },
-    {
-        "id": 4,
         "title": "Risotto",
         "ingredients": [],
         "description": ""
     },
     {
+        "id": 4,
+        "title": "Baked fish",
+        "ingredients": [],
+        "description": ""
+    },
+    {
         "id": 5,
-        "title": "Sphagetti",
+        "title": "Spaghetti",
         "ingredients": [],
         "description": ""
     },
     {
         "id": 6,
-        "title": "Łosoś",
+        "title": "Fried eggs",
         "ingredients": [],
         "description": ""
     },
     {
         "id": 7,
-        "title": "Skillet z brokułami",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=-_JkDYN_U1c",
-        "ingredients": [
-            {
-                "id": 19,
-                "name": "Orzechy",
-                "amount": "200",
-                "amount_type": "grams"
-            },
-            {
-                "id": 19,
-                "name": "Brokuły",
-                "amount": "2",
-                "amount_type": "count"
-            },
-            {
-                "id": 19,
-                "name": "Czosnek",
-                "amount": "8",
-                "amount_type": "count"
-            },
-            {
-                "id": 19,
-                "name": "Ciecierzyca",
-                "amount": "8",
-                "amount_type": "count"
-            },
-            {
-                "id": 19,
-                "name": "Sos sojowy",
-                "amount": "4",
-                "amount_type": "spoons"
-            },
-            {
-                "id": 19,
-                "name": "Ryż",
-                "amount": "1",
-                "amount_type": "count"
-            },
-            {
-                "id": 19,
-                "name": "Olej sezamowy",
-                "amount": "1",
-                "amount_type": "count"
-            }
-        ]
+        "title": "Pizza",
+        "ingredients": [],
+        "description": ""
     },
     {
         "id": 8,
-        "title": "",
+        "title": "Risotto (v)",
+        "ingredients": [],
+        "description": ""
+    },
+    {
+        "id": 9,
+        "title": "Sweet and sour tofu",
+        "ingredients": [],
+        "description": ""
+    },
+    {
+        "id": 10,
+        "title": "Tiramisu",
         "ingredients": [
             {
-                "id": 19,
+                "id": 1,
                 "name": "Buona mascarpone",
                 "amount": "200",
                 "amount_type": "grams"
@@ -342,38 +310,8 @@
         "description": ""
     },
     {
-        "id": 9,
-        "title": "",
-        "ingredients": [],
-        "description": ""
-    },
-    {
-        "id": 10,
-        "title": "",
-        "ingredients": [],
-        "description": ""
-    },
-    {
         "id": 11,
-        "title": "",
-        "ingredients": [],
-        "description": ""
-    },
-    {
-        "id": 12,
-        "title": "",
-        "ingredients": [],
-        "description": ""
-    },
-    {
-        "id": 13,
-        "title": "",
-        "ingredients": [],
-        "description": ""
-    },
-    {
-        "id": 14,
-        "title": "",
+        "title": "Owsianka",
         "ingredients": [],
         "description": ""
     }
