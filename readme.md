@@ -1,7 +1,1 @@
-/calendar
-/home
-/notes
-/photos
-/recipes
-/shopping
-/todo
+Yet another attempt at creating web app in my repo
