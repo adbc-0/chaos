@@ -257,44 +257,333 @@
     {
         "id": 3,
         "title": "Risotto",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Bulion warzywny",
+                "amount": "2",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Cebula",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Czosnek",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Filet",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 5,
+                "name": "Brokuł",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 6,
+                "name": "Ryż arborio",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 7,
+                "name": "Papryka słodka",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 8,
+                "name": "Papryka ostra",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 9,
+                "name": "Oliwa",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     },
     {
         "id": 4,
         "title": "Baked fish",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Ryba",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Ziemniaki",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Czosnek",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Tymianek",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 5,
+                "name": "Curry",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 6,
+                "name": "Masło",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 7,
+                "name": "Cytryna",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 8,
+                "name": "Papryka ostra",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     },
     {
         "id": 5,
         "title": "Spaghetti",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Pomidory",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Bazylia",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Czosnek",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Cebula",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 5,
+                "name": "Makaron",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     },
     {
         "id": 6,
         "title": "Fried eggs",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Jajka",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Ziemniaki",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Pieprz",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Sól",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     },
     {
         "id": 7,
         "title": "Pizza",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Mąka",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Drożdże",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Oliwki",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Pomidory",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 5,
+                "name": "Cebula",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 6,
+                "name": "Grzyby",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 7,
+                "name": "Mozarella",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 8,
+                "name": "Ser cheddar",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     },
     {
         "id": 8,
         "title": "Risotto (v)",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Bulion warzywny",
+                "amount": "2",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Cebula",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Czosnek",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Cukinia",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 5,
+                "name": "Brokuł",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 6,
+                "name": "Ryż arborio",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 7,
+                "name": "Papryka słodka",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 8,
+                "name": "Papryka ostra",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 9,
+                "name": "Oliwa",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 10,
+                "name": "Marchew",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     },
     {
         "id": 9,
         "title": "Sweet and sour tofu",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Tofu",
+                "amount": "2",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Sos sojowy",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Papryka",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     },
     {
         "id": 10,
@@ -312,7 +601,44 @@
     {
         "id": 11,
         "title": "Owsianka",
-        "ingredients": [],
-        "description": ""
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Płatki owsiane",
+                "amount": "2",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Mleko roślinne",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Jabłko",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Cynamon",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 5,
+                "name": "Orzechy włoskie",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 6,
+                "name": "Orzechy roślinne",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
     }
 ]
