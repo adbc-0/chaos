@@ -16,7 +16,7 @@ export function Component() {
                                     href={recipe.url}
                                     target="_blank"
                                 >
-                                    Link
+                                    [LINK]
                                 </a>
                             )}
                         </summary>

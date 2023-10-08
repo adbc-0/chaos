@@ -495,8 +495,8 @@
     },
     {
         "id": 8,
-        "title": "Risotto (v)",
-        "description": "",
+        "title": "Risotto",
+        "description": "vegan",
         "ingredients": [
             {
                 "id": 1,
@@ -562,8 +562,9 @@
     },
     {
         "id": 9,
-        "title": "Sweet and sour tofu",
-        "description": "",
+        "title": "Stir fry",
+        "description": "vegan",
+        "url": "https://www.health.harvard.edu/heart-health/meal-of-the-month-stir-fry-supper",
         "ingredients": [
             {
                 "id": 1,
@@ -602,6 +603,7 @@
         "id": 11,
         "title": "Owsianka",
         "description": "",
+        "url": "https://www.youtube.com/watch?v=ywkEGKXk2cQ",
         "ingredients": [
             {
                 "id": 1,
@@ -638,6 +640,117 @@
                 "name": "Orzechy roślinne",
                 "amount": "4",
                 "amount_type": "count"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Sos czostkowy",
+        "description": "",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Jogurt grecki",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 2,
+                "name": "Oliwa",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Cyrtyna",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Czosnek",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 5,
+                "name": "Miód",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 6,
+                "name": "Sól",
+                "amount": "4",
+                "amount_type": "count"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Spaghetti",
+        "description": "vegan",
+        "url": "https://www.youtube.com/watch?v=CkwflddQShk",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Seler naciowy",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 2,
+                "name": "Pomidory krojone z puszki",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 3,
+                "name": "Cebula czerwona",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 4,
+                "name": "Oliwa",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 5,
+                "name": "Grzyby suszone",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 6,
+                "name": "Wino",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 7,
+                "name": "Soczewica",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 8,
+                "name": "Pietruszka",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 9,
+                "name": "Makaron",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 10,
+                "name": "Parmezan",
+                "amount": "1",
+                "amount_type": "400g"
             }
         ]
     }
