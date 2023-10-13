@@ -7,9 +7,9 @@ import { SvgCooking } from "../assets/icons/cooking";
 import { SvgShoppingCard } from "../assets/icons/shopping_cart";
 import { SvgSettings } from "../assets/icons/settings";
 
-export function Sidebar() {
+export function Footbar() {
     return (
-        <aside className="py-2 px-4">
+        <footer>
             <ul>
                 <li>
                     <Link to="/">
@@ -32,6 +32,6 @@ export function Sidebar() {
                     </Link>
                 </li>
             </ul>
-        </aside>
+        </footer>
     );
 }

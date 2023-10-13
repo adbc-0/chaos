@@ -37,6 +37,7 @@ function App() {
 }
 
 function Layout() {
+    // ToDo: Add footbar
     return (
         <div className="flex">
             <Sidebar />
