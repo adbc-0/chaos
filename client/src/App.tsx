@@ -58,3 +58,10 @@ function NoMatch() {
 }
 
 export default App;
+
+// ToDo: Add global colors
+// ToDo: Add aliases
+// ToDo: Add mobile layout
+// ToDo: Add auth
+// ToDo: Style
+// ToDo: Deploy
