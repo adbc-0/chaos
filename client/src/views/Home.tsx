@@ -10,11 +10,17 @@ export function Home() {
     return (
         <div>
             <div>
-                <Link className="block border border-primary-text" to={createLinkRoute(UrlPath.RECIPES)}>
+                <Link
+                    className="block border border-primary-text"
+                    to={createLinkRoute(UrlPath.RECIPES)}
+                >
                     <p>Cooking recipes</p>
                     <SvgCooking />
                 </Link>
-                <Link className="block border border-primary-text" to={createLinkRoute(UrlPath.SHOPPING)}>
+                <Link
+                    className="block border border-primary-text"
+                    to={createLinkRoute(UrlPath.SHOPPING)}
+                >
                     <p>Shopping card</p>
                     <SvgShoppingCard />
                 </Link>
