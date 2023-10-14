@@ -3,9 +3,23 @@
 @tailwind utilities;
 
 @layer base {
+    @media (prefers-color-scheme: light) {
+        :root {
+            --primary: 212 212 212;
+            --primary-text: 38 38 38;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --primary: 38 38 38;
+            --primary-text: 212 212 212;
+        }
+    }
+
     html {
-        @apply text-neutral-300;
-        @apply bg-neutral-800;
+        @apply text-primary-text;
+        @apply bg-primary;
     }
 
     dialog {

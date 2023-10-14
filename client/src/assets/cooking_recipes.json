@@ -588,7 +588,7 @@
     },
     {
         "id": 10,
-        "title": "Tiramisu",
+        "title": "Tiramisù",
         "ingredients": [
             {
                 "id": 1,
@@ -601,7 +601,7 @@
     },
     {
         "id": 11,
-        "title": "Owsianka",
+        "title": "Porridge",
         "description": "",
         "url": "https://www.youtube.com/watch?v=ywkEGKXk2cQ",
         "ingredients": [
@@ -645,7 +645,7 @@
     },
     {
         "id": 12,
-        "title": "Sos czostkowy",
+        "title": "Garlic sauce",
         "description": "",
         "ingredients": [
             {
