@@ -71,7 +71,5 @@ function NoMatch() {
 
 export default App;
 
-// ToDo: Add aliases
-// ToDo: Add auth
 // ToDo: Style
-// ToDo: Deploy
+// ToDo: Add aliases https://dev.to/tilly/aliasing-in-vite-w-typescript-1lfo
