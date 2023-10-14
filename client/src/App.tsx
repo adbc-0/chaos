@@ -9,7 +9,9 @@ import {
 
 import { Home } from "./views/Home";
 import { UrlPath } from "./global/constants";
+import { useIsSmallScreen } from "./hooks/useIsSmallScreen";
 import { Sidebar } from "./components/Sidebar";
+import { Footbar } from "./components/Footbar";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -37,11 +39,21 @@ function App() {
 }
 
 function Layout() {
-    // ToDo: Add footbar
+    const isMobileLayout = useIsSmallScreen();
+
+    if (!isMobileLayout) {
+        return (
+            <div className="flex">
+                <Sidebar />
+                <Outlet />
+            </div>
+        );
+    }
+
     return (
-        <div className="flex">
-            <Sidebar />
+        <div>
             <Outlet />
+            <Footbar />
         </div>
     );
 }
@@ -59,9 +71,7 @@ function NoMatch() {
 
 export default App;
 
-// ToDo: Add global colors
 // ToDo: Add aliases
-// ToDo: Add mobile layout
 // ToDo: Add auth
 // ToDo: Style
 // ToDo: Deploy

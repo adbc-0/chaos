@@ -9,8 +9,8 @@ import { SvgSettings } from "../assets/icons/settings";
 
 export function Footbar() {
     return (
-        <footer>
-            <ul>
+        <footer className="fixed bottom-0 w-full">
+            <ul className="flex w-full justify-center">
                 <li>
                     <Link to="/">
                         <SvgHome />
