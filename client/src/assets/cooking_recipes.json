@@ -318,17 +318,12 @@
     {
         "id": 4,
         "title": "Baked fish",
-        "description": "",
+        "description": "Koper lub tymianek",
+        "url": "https://www.youtube.com/watch?v=aY8YvU7fqVI",
         "ingredients": [
             {
                 "id": 1,
                 "name": "Ryba",
-                "amount": "4",
-                "amount_type": "count"
-            },
-            {
-                "id": 2,
-                "name": "Ziemniaki",
                 "amount": "4",
                 "amount_type": "count"
             },
@@ -340,19 +335,19 @@
             },
             {
                 "id": 4,
-                "name": "Tymianek",
+                "name": "Koper",
                 "amount": "4",
                 "amount_type": "count"
             },
             {
                 "id": 5,
-                "name": "Curry",
+                "name": "Papryka słodka",
                 "amount": "4",
                 "amount_type": "count"
             },
             {
                 "id": 6,
-                "name": "Masło",
+                "name": "Oliwa",
                 "amount": "4",
                 "amount_type": "count"
             },
@@ -364,7 +359,19 @@
             },
             {
                 "id": 8,
-                "name": "Papryka ostra",
+                "name": "Sól",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 9,
+                "name": "Pieprz",
+                "amount": "4",
+                "amount_type": "count"
+            },
+            {
+                "id": 10,
+                "name": "Masło",
                 "amount": "4",
                 "amount_type": "count"
             }
@@ -662,7 +669,7 @@
             },
             {
                 "id": 3,
-                "name": "Cyrtyna",
+                "name": "Cytryna",
                 "amount": "4",
                 "amount_type": "count"
             },
@@ -751,6 +758,138 @@
                 "name": "Parmezan",
                 "amount": "1",
                 "amount_type": "400g"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Puree",
+        "description": "",
+        "url": "https://karmelowy.pl/puree-ziemniaczane-z-chrzanem-creamy-horseradish-potato-puree/",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Sól",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 2,
+                "name": "Pieprz",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 3,
+                "name": "Chrzan",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 4,
+                "name": "Masło",
+                "amount": "1",
+                "amount_type": "400g"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Surówka z marchewki",
+        "description": "Opcjonalnie orzechy włoskie",
+        "url": "https://www.kwestiasmaku.com/przepis/surowka-z-marchewki",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Marchew",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 2,
+                "name": "Jabłko",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 3,
+                "name": "Sól",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 4,
+                "name": "Cytryna",
+                "amount": "1",
+                "amount_type": "400g"
+            },
+            {
+                "id": 5,
+                "name": "Oliwa",
+                "amount": "1",
+                "amount_type": "400g"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Coleslaw",
+        "description": "",
+        "url": "https://www.kwestiasmaku.com/przepis/surowka-coleslaw",
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Biała kapusta",
+                "amount": "0.5",
+                "amount_type": "count"
+            },
+            {
+                "id": 2,
+                "name": "Cebula",
+                "amount": "0.25",
+                "amount_type": "count"
+            },
+            {
+                "id": 3,
+                "name": "Marchew",
+                "amount": "1",
+                "amount_type": "count"
+            },
+            {
+                "id": 4,
+                "name": "Sól",
+                "amount": "0.5",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 5,
+                "name": "Pieprz",
+                "amount": "0.3",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 6,
+                "name": "Majonez",
+                "amount": "4",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 7,
+                "name": "Ocet winny",
+                "amount": "0.5",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 8,
+                "name": "Cytryna",
+                "amount": "0.5",
+                "amount_type": "spoons"
+            },
+            {
+                "id": 9,
+                "name": "Miód",
+                "amount": "1",
+                "amount_type": "spoons"
             }
         ]
     }
